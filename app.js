@@ -18,6 +18,11 @@ app.get('/',function(req,res){
     res.sendFile(path.resolve(__dirname,'./views/home.html'))
 })
 
+
 app.get('/register',function(req,res){
     res.sendFile(path.resolve(__dirname,'./views/register.html'))
+})
+
+app.post('/',function(req,res){
+    res.sendFile(path.resolve(__dirname,'./views/home.html'))
 })
