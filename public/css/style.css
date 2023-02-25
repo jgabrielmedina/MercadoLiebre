@@ -68,6 +68,13 @@ text-align: center;
 .main{
     background-color: #ebebeb;
     padding-bottom: 3rem;
+
+}
+
+.mainLogin{
+    height: 43vh;
+    background-color: #ebebeb;
+    padding-bottom: 3rem;
 }
 
 
@@ -177,14 +184,35 @@ position: relative;
     text-align: center;
 }
 
-.main .formulario .primerp{
+.mainLogin .formulario .primerp{
     margin-top: auto;
     padding-top: 1rem;
 }
 
-.main .formulario{
+.mainLogin .formulario{
     text-align: center;
 }
+
+.formularioLogin .formulario p input,button{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+
+.formularioLogin{
+    position: relative;
+    top: 15%;
+
+}
+
+
+.formularioLogin .formulario button{
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+
 
 @media (max-width:765px){
 
@@ -219,7 +247,10 @@ position: relative;
         justify-content: center;
     }
    
-
+    .formularioLogin .formulario p input,button{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
    
    
 

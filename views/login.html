@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,20 +8,19 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Mercado Liebre</title>
 </head>
-
 <body>
     <header class="header">
 
         <div class="cabecera1">
-
+            
             <div class="logo">
-                <img src="img/logo-mercado-liebre.svg" alt="logo">
+             <img src="img/logo-mercado-liebre.svg" alt="logo">
             </div>
             <div class="buscador">
                 <input type="text" class="estilo" placeholder="Search..">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-
+            
             <p><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</p>
 
         </div>
@@ -39,95 +37,40 @@
             <nav>
                 <ul>
                     <li><a href="/register">Crea tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
-                    <li><a href="/login">Ingresa</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                    <li><a href="#">Ingresa</a><i class="fa-solid fa-right-to-bracket"></i></li>
                     <li><a href="#">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
                 </ul>
             </nav>
 
-
-
+            
+        
         </div>
 
         <div class="burger-menu">
             <i class="fas fa-bars"></i>
-        </div>
+            </div>
+
+
 
     </header>
+ 
+    <main class="mainLogin">
 
+        <div class="formularioLogin">
 
-    <main class="main">
-        <img src="img/img-home-banner.jpg" alt="">
-
-        <h3 class="subtitulo">Basado en tu ultima visita</h3>
-        <section class="section1">
-
-
-            <article class="articulo">
-
-                <img src="img/img-cafetera-moulinex.jpg" alt="cafetera">
-
-                <div class="cajahijo">
-                    
-                    <p class="precio">$6.700</p>
-                    <p class="descuento">40% off</p>
-                    <i class="fa-solid fa-truck lupita loguito"></i>
-                    <h3 class="descripciones">Cafetera Moulinex</h3>
-                    
-                </div>
-
-            </article>
-
-            <article class="articulo">
-
-                <img src="img/img-macbook-pro-2019.jpg" alt="macbook">
-
-                <div class="cajahijo">
-                  
-                    <p class="precio">$230.000</p>
-                    <p class="descuento">20% off</p>
-                    <i class="fa-solid fa-truck lupita loguito"></i>
-                    <h3 class="descripciones">MacBook Pro 2019</h3>
-                  
-                </div>
-
-            </article>
-
-            <article class="articulo">
-
-                <img src="img/img-samsung-galaxy-s10.jpg" alt="smart">
-
-                <div class="cajahijo">
-                    
-                    <p class="precio">$70.500</p>
-                    <p class="descuento">10% off</p>
-                    <i class="fa-solid fa-truck lupita loguito"></i>
-                    <h3 class="descripciones">Samsung Galaxy S10</h3>
-                    
-
-                </div>
-
-            </article>
-
-            <article class="articulo">
-
-                <img src="img/img-tv-samsung-smart.jpg" alt="tv">
-
-                <div class="cajahijo">
-                  
-                    <p class="precio">$23.200</p>
-                    <p class="descuento">5% off</p>
-                    <i class="fa-solid fa-truck lupita loguito"></i>
-                    <h3 class="descripciones">SmartTv Samsung 43"</h3>
-                   
-                </div>
-
-            </article>
-        </section>
-
-
-
+            <form class="formulario" action="/" method="GET">
+                <p class="primerp">
+                    <input type="text" name="nombredeusuario" id="nombredeusuario" placeholder="Nombre de usuario">
+                </p>
+                <p>
+                
+                    <input type="password" name="contraseña" id="contraseña" placeholder="Eleji tu Contraseña">
+                </p>
+                <button type="submit">Enviar</button> 
+        </div>
 
     </main>
+
 
     <footer class="footer">
 
@@ -162,8 +105,5 @@
 
 
     </footer>
-
-
 </body>
-
 </html>
