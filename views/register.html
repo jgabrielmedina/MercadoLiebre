@@ -55,23 +55,23 @@
 
     <main class="main">
       <div class="formulario">
-        <form action="/" method="POST">
+        <form class="formularioRegister" action="/" method="POST">
             <p class="primerp">
-                <input type="text" name="nombreyapellido" id="nombreyapellido" placeholder="Nombre y Apellido">
+                <input type="text" name="nombreyapellido" id="nombreyapellido" placeholder="Nombre y Apellido"  class="text">
             </p>
             <p>
-                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de Usuario">
+                <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de Usuario"  class="text">
             </p>
             <p>
-                <label for="fechanac">Fecha de nacimiento:</label><br>
-                <input type="date" name="fechanac" id="fechanac">
+                <label class="subtituloform" for="fechanac">Fecha de nacimiento:</label><br>
+                <input type="date" name="fechanac" id="fechanac" class="text">
             </p>
             <p>
-                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio"  class="text">
             </p>
             
             <p>
-                <label>Perfil de Usuario:</label> <br>
+                <label class="subtituloform">Perfil de Usuario:</label> <br>
                 
                <input type="radio" name="perfil" value="Comprador">
                <label for="Comprador">Comprador</label>
@@ -81,7 +81,7 @@
             </p>
 
             <p>
-                <label>Intereses</label><br>
+                <label class="subtituloform">Intereses</label><br>
                 <input type="checkbox" name="intereses" name="electro">
                 <label for="electro">Electro</label><br>
                 <input type="checkbox" name="intereses" name="moda">
@@ -95,18 +95,18 @@
             </p>
 
             <p>
-                <label for="imagen">Foto de perfil:</label><br>
+                <label for="imagen" class="subtituloform">Foto de perfil:</label><br>
                 <input type="file" name="imagen" id="imagen">
 
             </p>
 
             <p>
                 
-                <input type="password" name="contra" id="contra" placeholder="Contrasena">
+                <input type="password" name="contra" id="contra" placeholder="Contraseña"  class="text">
             </p>
             <p>
                 
-                <input type="password" name="contra" id="contra" placeholder="Confirmar contrasena">
+                <input type="password" name="contra" id="contra" placeholder="Confirmar contraseña"  class="text">
             </p>
 
             <p>

@@ -212,6 +212,30 @@ position: relative;
     border-radius: 5px;
 }
 
+.main .formulario .formularioRegister {
+    text-align: center;
+}
+
+.main .formulario .formularioRegister .primerp {
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.main .formulario .formularioRegister p .subtituloform {
+    font-weight: bold;
+}
+
+ .formulario .formularioRegister p button{
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.header .burger-menu:hover{
+    display:contents ;
+}
+
+
 
 
 @media (max-width:765px){
@@ -248,6 +272,11 @@ position: relative;
     }
    
     .formularioLogin .formulario p input,button{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .formulario .formularioRegister p .text{
         width: 80%;
         margin-bottom: 1rem;
     }
@@ -380,5 +409,10 @@ position: relative;
 
     .footer .piepage div{
         width: 33%;
+    }
+
+    .formulario .formularioRegister p .text{
+        width: 50%;
+        margin-bottom: 1rem;
     }
 }
