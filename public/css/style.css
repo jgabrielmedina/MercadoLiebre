@@ -231,12 +231,6 @@ position: relative;
     border-radius: 5px;
 }
 
-.header .burger-menu:hover{
-    display:contents ;
-}
-
-
-
 
 @media (max-width:765px){
 
